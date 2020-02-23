@@ -18,15 +18,15 @@ Data processing works as follows:
 The project consists of the following parts: one splitter, two mappers and two reducers. 
 The input is a sentence. The sentence is divided into words and the words are stored and processed on the different nodes. Reducer counts the number of occurrences of each word. 
 
-### Splitter
+#### Splitter
 
 Splitter processes the input of sentences. It sends the sentences to the mapper.
 
-### Mapper
+#### Mapper
 
 Mapper divides sentences into the words, sorts words by the first letter and sends them to the reducers. The words start with letter a-l are sent to the first reducer. The words start with letter m-z are sent to the second reducer. 
 
-### Reducer 
+#### Reducer 
 
 Reducer receives the words, stores them locally into the dictionary and counts the number of occurrences of each word. 
 
