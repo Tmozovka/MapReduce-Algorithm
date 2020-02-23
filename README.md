@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Python, pip, pipenv must be installed to run this project.
 
-### Get started
+### START
 
 Configure python environment
 
