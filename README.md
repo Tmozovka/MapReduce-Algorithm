@@ -70,7 +70,7 @@ pipenv run python reducer.py 1
 pipenv run python reducer.py 2
 ```
 
-Write some sentences in the terminal, where splitter runs, and look at how map reduce algorithm works :)
+**Write some sentences in the terminal, where splitter runs, and look at how map reduce algorithm works :)**
 
 ## License
 
